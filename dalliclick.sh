@@ -64,7 +64,7 @@ BACKGROUNDIMAGENAME="tmp_background.png"
 # functions
 function usage {
 	echo "This script creates partially occluded image versions of the input image"
-        echo "Usage: $SCRIPTNAME <options> imagefile" >&2
+        echo "Usage: $SCRIPTNAME <options> imagefiles" >&2
 	echo "-h (this) help"
 	echo "-v print verbose information"
 	echo "-n number of segments, max. 255"

@@ -12,3 +12,21 @@ Necessary software
 
 * bash shell
 * ImageMagick (Version > 6.4.3): convert and composite http://www.imagemagick.org/
+
+Usage
+-----
+
+Use -h to get help:
+
+    dalliklick.sh -h
+
+    This script creates partially occluded image versions of the input image
+    Usage: dalliklick.sh <options> imagefile
+    -h (this) help
+    -v print verbose information
+    -n number of segments, max. 255
+    -o output image base name (out -> out_NNN.png)
+    -b background (canvas) image
+    -m maskimage (with label gray values 1,2,3,...)
+    -t do not generate temporary directory (working dir is used)
+
