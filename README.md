@@ -20,8 +20,8 @@ Use -h to get help:
 
     dalliklick.sh -h
 
-    This script creates partially occluded image versions of the input image
-    Usage: dalliklick.sh <options> imagefile
+    This script creates partially occluded image versions of the input images
+    Usage: dalliklick.sh <options> imagefiles
     -h (this) help
     -v print verbose information
     -n number of segments, max. 255
