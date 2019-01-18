@@ -245,8 +245,8 @@ do
 	if [ $GENERATE_BACKGROUND -eq 0 ] ; then
 		# do this in the temporary directory
 		BACKGROUNDIMAGE="$TMPDIR/$BACKGROUNDIMAGENAME"
-		# generate 'starting' canvas
-		CMD="$CONVERT_BIN -size ${WIDTH}x$HEIGHT plasma:fractal $BACKGROUNDIMAGE"
+		# generate 'starting' black canvas
+		CMD="$CONVERT_BIN -size ${WIDTH}x$HEIGHT xc:black $BACKGROUNDIMAGE"
 		if [ $VERBOSE -eq 0 ] ; then  echo $CMD; fi
 		eval $CMD
 	else
